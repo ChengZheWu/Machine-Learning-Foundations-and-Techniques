@@ -5,3 +5,5 @@ In this final project, I am going to be part of an exciting machine learning com
 
 # Data Sets
 The data sets are processed from the [Kaggle hotel booking demand data](https://www.kaggle.com/jessemostipak/hotel-booking-demand).
+
+# Data pre-processing

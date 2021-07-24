@@ -29,5 +29,4 @@ Random Forest Regressor   |**11.27**        |69.06
 Nearest Neibor Regressor  |19.52        |2.94   
 SVM Regressor (RBF)       |31.57        |5365.73
 ## 3. Revenue Calculation
- $$ max\(min\(\lfloor\frac {1} {2}\rfloor, 9), 0) $$
-$$ \sideset{^1_2}{^3_4}\bigotimes $$
+![formula]()

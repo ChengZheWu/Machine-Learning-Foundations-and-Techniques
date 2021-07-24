@@ -30,7 +30,7 @@ Nearest Neibor Regressor  |19.52        |2.94
 SVM Regressor (RBF)       |31.57        |5365.73
 ## 3. Revenue Calculation
 ![formula](https://github.com/ChengZheWu/Machine-Learning-Foundations-and-Techniques/blob/main/final_project/formula.png)  
-                | MAE      
+a               | MAE      
 :---------------|------------:
 Public score    |0.355263         
 Private score   |0.454545              

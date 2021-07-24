@@ -15,10 +15,18 @@ Finally, the dimension of training data and testing data are (88974, 931) and (2
 
 # Method & Results
 We divide the task into 3 steps.
-
-## 1. Reservation Cancel Prediction
-Method                    | Val Acc (%) | Time (s)  
+All the hyerparameters of models are the defaults of scikit-learn package. 
+## 1. Cancellation Prediction
+Model                     | Val Acc (%) | Time (s)  
 :-------------------------|------------:|----------:
-Random Forest Classifier  |90.43        |57.36         
+Random Forest Classifier  |**90.43**        |57.36         
 Nearest Neibor Classifier |80.47        |122.14   
 SVM Classifier (RBF)      |68.46        |5992.95
+## 2. Adr Prediction
+Model                     | Val MAE     | Time (s)  
+:-------------------------|------------:|----------:
+Random Forest Regressor   |**11.27**        |69.06       
+Nearest Neibor Regressor  |19.52        |2.94   
+SVM Regressor (RBF)       |31.57        |5365.73
+## 3. Revenue Calculation
+ $$ max\(min\(\lfloor\frac {1} {2}\rfloor, 9), 0) $$

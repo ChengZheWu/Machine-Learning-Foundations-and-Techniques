@@ -17,11 +17,11 @@ Finally, the dimension of training data and testing data are (88974, 931) and (2
 We divide the task into 3 steps.
 All the hyerparameters of models are the defaults of scikit-learn package. 
 ## 1. Cancellation Prediction
-Model                     | Val Acc (%) | Time (s)  
-:-------------------------|------------:|----------:
-Random Forest Classifier  |**90.43**        |57.36         
-Nearest Neibor Classifier |80.47        |122.14   
-SVM Classifier (RBF)      |68.46        |5992.95
+Model                       | Val Acc (%) | Time (s)  
+:---------------------------|------------:|----------:
+Random Forest Classifier    |**90.43**        |57.36         
+Nearest Neighbor Classifier |80.47        |122.14   
+SVM Classifier (RBF)        |68.46        |5992.95
 ## 2. Adr Prediction
 Model                     | Val MAE     | Time (s)  
 :-------------------------|------------:|----------:
